@@ -1,0 +1,33 @@
+p {
+			color:  red;
+			font-size: 20px;
+		}
+
+h1, h2, h3, h4 {
+		color: blue;
+			text-align: center;
+		}
+
+h3, h4 {
+			background-color: yellow;
+		}
+
+img  {
+			width: 500;
+			height: 350;
+		}
+
+/*
+border:  size of border, method of working border, color of border;
+*/
+h1, h2 {
+			border: 10px solid green;
+		}
+
+		p {
+			border: 20px double deeppink;
+		}
+
+		img {
+			border: 10px dashed darkblue;
+		}

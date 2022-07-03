@@ -1,0 +1,19 @@
+p {
+	font-size: 20px;
+}
+
+a:link {
+	color: white;
+	background-color: grey;
+
+}
+
+a:hover {
+	color: red;
+	background-color: yellow;
+}
+
+a:visited {
+	color: green;
+	background-color: pink;
+}

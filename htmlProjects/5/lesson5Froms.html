@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lesson 5 Forms</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+
+<form method="POST" action="accepted.html">
+	<label>Your first name: </label><br/>
+	<input type="text" name="fname" id="fname"><br/>
+
+	<label>Your second name: </label> <br/>
+	<input type="text" name="sname" id="sname"><br/>
+	<!-- <input type="submit" name="registerbtn" value="Registration"> -->
+
+	<label>Your email: </label> <br/>
+	<input type="email" name="emailaddress" id="emailaddress"><br/>
+
+	<label>Your password: </label> <br/>
+	<input type="password" name="pwd" id="pwd"><br/><br/><br/>
+	
+
+	<label>What type of passport you have? </label><br/>
+	<input type="checkbox" name="bike" id="bike" value="Bike">
+	<label>I have a Bike</label>
+
+	<br/>
+	
+	<input type="checkbox" name="car" id="car" value="Car">
+	<label>I have a Car</label><br/>
+
+	
+	<input type="checkbox" name="bus" id="bus" value="Bus">
+	<label>I have a Bus</label><br/>
+
+
+
+	<br/><br/><br/>
+	<label>From which country are you from?</label>
+	<br/>
+
+
+	<select id="countries" name="countries">
+		<option>Kyrgyzstan</option>
+		<option>USA</option>
+		<option>Russia</option>
+		<option>India</option>
+		<option>China</option>
+		<option>Malaysia</option>
+	</select>
+	<br/>
+
+	<label>Tell me about your hobby: </label><br/>
+	<textarea rows="20" cols="50">I like... </textarea>
+	<br/><br/>
+
+	<label>Input your birthday</label>
+	<input type="date" name="birthday" id="birthday">
+	<br/><br/>
+
+	<label>Enter your first experience date: </label>
+	<input type="date" name="expmax" id="expmax" max="2005-01-01">
+	<br/>
+
+	<label>Enter your last experience date: </label>
+	<input type="date" name="expmax" id="expmax" max="2005-01-01">
+
+	<br/><br/>
+	<label>Upload your CV</label>
+	<input type="file" name="myfile" id="myfile">
+	<br/>
+
+
+
+
+
+	<button>Registration</button>
+
+</form>
+
+</body>
+</html>

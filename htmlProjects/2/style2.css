@@ -1,0 +1,28 @@
+h1 {
+	background-color: purple;
+	color: blue;
+}
+
+h2 {
+	background-color: deeppink;
+	color: yellow;
+}
+
+h3 {
+	background-color: darkgrey;
+	color: blueviolet;
+}
+
+p {
+	color: #34b1eb;
+}
+
+img{
+	width: 350;
+	height: 200;
+
+}
+
+body {
+	background-color: rgba(210, 166, 217, 0.3);
+}

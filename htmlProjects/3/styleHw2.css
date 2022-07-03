@@ -1,0 +1,23 @@
+th {
+	color: white;
+	background-color: mediumseagreen;
+}
+
+
+img {
+	display: table-cell;
+	float: left;
+}
+
+table {
+	width: 600px;
+}
+
+table, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+
+.photo {
+	background-color: lightgrey;
+}
