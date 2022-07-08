@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Lesson 1</title>
+	<style type="text/css">
+
+		h1{
+			color: red;
+		}
+
+		/*p{
+			color: blue;
+			font-size: 20px;
+		}*/
+
+		#mytext{
+			text-align: center;
+			background-color: yellow;
+			color: red;
+		}
+
+		#mytext2{
+				background-color: pink; 
+				color: blue;
+		}
+
+		p.myclass{
+			font-size: 25px;
+			font-family: arial;
+		}
+
+		h3,p.myclass2{
+			font-size: 25px;
+			font-family: arial;
+			color: green;
+		}
+
+
+		p.myclass3{
+			font-size: 30px;
+			font-family: arial;
+			color: purple;
+		}
+
+		h3.myclass3{
+			font-size: 50px;
+			font-family: arial;
+			color: green;
+		}
+
+		.some{
+			text-align: center;
+		}
+
+		.par{
+			background-color: pink;
+			color: green;
+			font-size: 40px;
+		}
+
+		.borderclass{
+			margin-left: 300px;
+			margin-right: 300px;
+			border: 10px double green;
+		}
+
+		/**{
+			text-align:center;
+			color: blue; 
+		}*/
+
+		p, h1, h2, h3{
+			font-family: arial;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+<h1> Some header</h1>
+<p id="mytext2"> Some text 1</p>
+<p> Some text 2</p>
+<p id="mytext"> Some text 3</p>
+<p> Some text 4</p>
+<p id="mytext"> Some text 5</p>
+<p> Some text 6</p>
+
+<h2 id="mytext"> My Header 2</h2>
+
+<table>
+		<tr id="mytext">
+			<td> <b>Col 1</b></td>
+			<td><b>Col 2<b></td>
+			<td><b>Col 3<b></td>
+			<td><b>Col 4<b></td>
+		</tr>
+		<tr>
+			<td>Col 1</td>
+			<td colspan="3">Col 2-3-4</td>
+		</tr>
+		<tr id="mytext2">
+			<td>Col 1</td>
+			<td>Col 2</td>
+			<td colspan="2">Col 3-4</td>
+		</tr>
+		<tr id="mytext2">
+			<td>Col 1</td>
+			<td>Col 2</td>
+			<td>Col 3</td>
+			<td>Col 4</td>
+		</tr>
+	</table>
+
+<p class="myclass some"> Some paragraph with. class </p>
+<p class="myclass2"> Some paragraph with. class </p>
+<p class="myclass3"> Some paragraph with. class </p>
+
+
+<h3 class="myclass3"> Header H3</h3>
+
+
+<h3> Some header 3</h3>
+
+<p class="par borderclass some"> Some text bla bla. </p>
+</body>
+</html>
