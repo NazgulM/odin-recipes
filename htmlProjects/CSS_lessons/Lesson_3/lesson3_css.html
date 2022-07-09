@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS lesson 3 table</title>
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+
+		table, th, td {
+			border: 2px solid blue;
+			text-align: center;
+
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		td {
+			height: 30px;
+			vertical-align: top;
+			padding: 30px;
+		}
+
+		tr:hover {
+			background-color: pink;
+			text-transform: uppercase;
+			text-shadow: 2px 2px 5px red;
+			color: green;
+		}
+
+		tr:nth-child(even) {
+			background-color: #a8c6ed;
+		}
+
+		#headertable {
+			height: 80px;
+		}
+
+	</style>
+</head>
+<body>
+
+<h1>Lesson 3 CSS-HTML</h1>
+
+<table>
+	<thead >
+	<tr id="headertable">
+		<th>Year</th>
+		<th>Bishkek city</th>
+		<th>Osh city</th>
+		<th>Balykchi city</th>
+		<th>Jalal-Abad city</th>
+	</tr>
+</thead>
+
+<tbody>
+	<tr>
+		<td><b>2018</b></td>
+		<td>100 000</td>
+		<td>80 000</td>
+		<td>75 000</td>
+		<td>92 000</td>
+	</tr>
+
+	<tr>
+		<th>2019</th>
+		<td>110 000</td>
+		<td>90 000</td>
+		<td>85 000</td>
+		<td>77 000</td>
+	</tr>
+
+	<tr>
+		<td><b>2020</b></td>
+		<td>50 000</td>
+		<td>45 000</td>
+		<td>73 000</td>
+		<td>75 000</td>
+	</tr>
+
+	<tr>
+		<th>2021</th>
+		<td>85 000</td>
+		<td>60 000</td>
+		<td>55 000</td>
+		<td>48 000</td>
+	</tr>
+
+	<tr>
+		<th>2022</th>
+		<td>85 000</td>
+		<td>60 000</td>
+		<td>55 000</td>
+		<td>48 000</td>
+	</tr>
+
+<tr>
+		<th>2023</th>
+		<td>85 000</td>
+		<td>60 000</td>
+		<td>55 000</td>
+		<td>48 000</td>
+	</tr>
+
+	<tfoot>
+		<tr>
+		<th>Total</th>
+		<td>85 000</td>
+		<td>60 000</td>
+		<td>55 000</td>
+		<td>48 000</td>
+	</tr>
+	</tfoot>
+</tbody>
+</table>
+</body>
+</html>
