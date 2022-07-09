@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Lesson 1</title>
+	<style type="text/css">
+		h1 {
+			color: red;
+		}
+
+		p {
+			text-align: center;
+			color: blue;
+			font-size: 20px;
+		}
+
+		#mytext {
+			background-color: yellow;
+			color: red;
+			text-align: center;
+		}
+
+		#mytext2 {
+			background-color: pink;
+			color: blueviolet;
+			text-align: center;
+		}
+
+		p.myclass {
+			font-size: 25px;
+			color: darkgreen;
+			font-family: arial;
+		}
+
+		p.myclass2 {
+			font-size: 25px;
+			font-family: arial;
+			color:  lawngreen;
+		}
+
+		p.myclass3 {
+			font-size: 30px;
+			font-family: arial;
+			color:  purple;
+		}
+
+		h3.myclass3 {
+			font-size: 50px;
+			font-family: arial;
+			color: pink;
+		}
+
+		.some {
+			text-align: center;
+		}
+
+		.par {
+			background-color: pink;
+			color: green;
+			font-size: 40px;
+		}
+
+		.borderclass {
+			margin-left: 300px;
+			margin-right: 300px;
+			border: 10px double green;
+		}
+
+		* {
+			text-align: center;
+		}
+
+		p, h1, h2, h3 {
+			font-family: arial;
+			background-color: purple;
+		}
+
+	</style>
+</head>
+<body>
+<h1 id="mytext2">Some header</h1>
+<p>Some text 1</p>
+<p>Some text 2</p>
+<p style="background-color: violet; color: red;">Some text 3</p>
+<p id="mytext">Some text 4</p>
+<p id="mytext">Some text 5</p>
+<p>Some text 6</p>
+<h2 id="mytext">MY Text</h2>
+<table>
+		<tr id="mytext">
+			<td> <b>Col 1</b></td>
+			<td style="background-color: pink">Col 2</td>
+			<td>Col 3</td>
+			<td>Col 4</td>
+		</tr>
+		<tr>
+			<td id="mytext2">Col 1</td>
+			<td colspan="3">Col 2-3-4</td>
+		</tr>
+		<tr>
+			<td>Col 1</td>
+			<td>Col 2</td>
+			<td colspan="2">Col 3-4</td>
+		</tr>
+		<tr style="background-color: pink; color: blue;">
+			<td>Col 1</td>
+			<td>Col 2</td>
+			<td>Col 3</td>
+			<td>Col 4</td>
+		</tr>
+	</table>
+
+<p class="myclass">Some paragraph with class</p>
+<p class="myclass2">some paragraph with class</p>
+<p class="myclass3">some paragraph with class</p>
+
+<h1 id="myclass3">My header with class 3</h1>
+<h3 class="myclass3">Header h3</h3>
+
+<p class="some par borderclass">Some text bla bla</p>
+</body>
+</html>

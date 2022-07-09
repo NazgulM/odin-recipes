@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+table {
+	border: 5px solid green;
+	background-color: grey;
+	width: 80%;
+}
+
+ img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 450px;
+}
+
+td {
+	width: 35%;
+	text-align: center;
+	font-family: 'Splash', cursive;
+	font-size: 45px;
+}
+
+.myicons {
+	color: red;
+
+}
