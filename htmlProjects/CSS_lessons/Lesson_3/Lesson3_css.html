@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css lesson 3 - Table</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+
+		/*table, th, td{
+			border: 2px solid blue;
+		}*/
+
+		/*th{
+			height: 80px;
+		}
+*/
+		table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		td{
+			height: 30px;	
+			text-align: center;
+			/*vertical-align: top; /*bottom*/
+		}
+
+		table,th,td{
+			border: 5px solid blue;
+			/*outline: 2px solid red;*/
+		}
+
+		/*table{
+
+		}
+*/
+		tr:hover{
+			background-color: pink;
+			text-transform: uppercase;
+			text-shadow: 2px 2px 5px red;
+			color: green;
+		}
+
+		tr:nth-child(even) {
+			background-color: #aaace6;
+		}
+
+		#headertable{
+			height: 50px;
+			background-color: #777ac9;
+			font-size: 20px;
+			color: white;
+		}
+
+		div{
+			overflow-x: auto;
+			outline: 2px solid red;
+		}
+
+		/*th{
+			text-align:right;
+		}
+*/
+
+
+
+	</style>
+</head>
+<body>
+
+<h1> Lesson 3 CSS - Html </h1>	
+
+<div>
+<table >
+	<thead>
+		<tr id="headertable">
+			<th>Год</th>
+			<th>Бишкек</th>
+			<th>Ош</th>
+			<th>Джаллабад</th>
+			<th>Талас</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<th>2018</th>
+			<td>100 000</td>
+			<td>80 000</td>
+			<td>72 000</td>
+			<td>75 000</td>
+		</tr>
+
+		<tr>
+			<th>2019</th>
+			<td>115 000</td>
+			<td>92 000</td>
+			<td>95 000</td>
+			<td>97 000</td>
+		</tr>
+
+		<tr>
+			<th>2020</th>
+			<td>50 000</td>
+			<td>45 000</td>
+			<td>33 000</td>
+			<td>36 000</td>
+		</tr>
+
+		<tr>
+			<th>2021</th>
+			<td>96 000</td>
+			<td>94 000</td>
+			<td>87 000</td>
+			<td>83 000</td>
+		</tr>
+
+		<tr>
+			<th>2022</th>
+			<td>96 000</td>
+			<td>94 000</td>
+			<td>87 000</td>
+			<td>83 000</td>
+		</tr>
+
+		<tr>
+			<th>2023</th>
+			<td>96 000</td>
+			<td>94 000</td>
+			<td>87 000</td>
+			<td>83 000</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<th>ИТОГ</th>
+		<td>300 000</td>
+		<td>280 000</td>
+		<td>270 000</td>
+		<td> 265 000</td>
+	</tfoot>
+
+</table>
+</div>
+
+</body>
+</html>
