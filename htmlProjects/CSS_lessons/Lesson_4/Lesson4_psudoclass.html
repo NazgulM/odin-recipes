@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Pseudo class</title>
+	<style type="text/css">
+		a:link{
+			background-color: yellow;
+		}
+
+		a:hover{
+			background-color: pink;
+			font-size: 20px;
+		}
+
+		div:hover a{
+			background-color: yellow;
+			font-size: 20px;
+			border:2px solid red;	
+		}
+
+		p:first-child {
+			color: red;
+		}
+
+		p.par1 u:first-child{
+			background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+<a href="#">Link1</a>
+<a href="#">Link2</a>
+<a href="#">Link3</a>
+<a href="#">Link4</a>
+
+<p>sadasdasdasdaa</p>
+<p>sadasdasdasdaa</p>
+<div>
+<a href="#">Link1</a>
+<p>DIV - Cdcsdfsdfsdf</p>
+
+<p>DIV Cdcsdfsdfsdf</p>
+
+</div>
+
+<p>sadasdasdasdaa</p>
+<p>sadasdasdasdaa</p>
+<p>sadasdasdasdaa</p>
+
+
+<p class="par1">Lorem ipsum dolor sit amet, <u>consectetur adipiscing elit</u>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <u>laboris nisi ut aliquip ex ea commodo consequat. </u>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <u>cupidatat</u> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>

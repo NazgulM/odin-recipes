@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Css forms</title>
+	<style type="text/css">
+		div {
+			text-align: center;
+			border: 5px solid blue;
+			border-radius: 10px;
+			margin: 50px 550px;
+			opacity: 75%;
+		}
+
+		label {
+			font-size: 25px;
+		}
+
+		input [text=text], select {
+			padding: 12px 20px;
+			border: 2px solid green;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+
+		input[type=submit] {
+			padding: 15px 22px;
+			 border: none;
+			 border-radius: 5px;
+		}
+
+		input[type=submit]: hover {
+			background-color: orangered;
+		}
+
+		textarea {
+			padding-top: 50px;
+			border: 2px solid blue;
+
+
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<form>
+		<label>First Name</label><br/>
+		<input type="text" name="fname" id="fname" placeholder="Put your first name..."><br/><br/>
+
+		<label>Last Name</label><br/>
+		<input type="text" name="lname" id="lname" placeholder="Put your last name..."><br/><br/>
+
+		<label> Your age: </label><br/>
+		<input type="text" name="age" id="age" placeholder="Put your last age..."><br/><br/>
+
+		<label> Choose your country: </label><br/>
+		<select>
+			<option value = 'usa'>USA</option>
+			<option value = 'japan'>Japan</option>
+			<option value = 'france'>France</option>
+			<option value = 'kg'>Kyrgyzstan</option>
+		</select>
+		<br/><br/>
+		<label>Your comment: </label>
+
+	</form>
+</div>
+</body>
+</html>

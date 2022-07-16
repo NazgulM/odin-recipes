@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Css - Navigation menu with dropdown</title>
+	<style type="text/css">
+		.nav {
+			text-align: center;
+			background-color: #4fab80;
+			padding: 10px;
+			margin-left: 50px;
+			margin-right: 50px;
+			border: 2px solid blue;
+			border-radius: 10px;
+		}
+
+		/*a {
+			text-decoration: none;
+		}
+
+		.nav li:hover {
+			background-color: #d3a7d9;
+		}
+
+		.nav1 {
+			text-align: center;
+			background-color: #4fab80;
+			padding: 10px;
+			margin-left: 600px;
+			margin-right: 600px;
+			border: 2px solid blue;
+			border-radius: 10px;
+		}
+
+		.nav1 li{
+			display: block;
+			font-size: 25px;
+			padding: 25px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		
+		.nav1 li:hover {
+			background-color: #d3a7d9;
+		}*/
+
+		.droppdown {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+
+<div class="nav1">
+<ul class="nav">
+	<li><a href="#">Main</a></li>
+	<li><a href="#">About us</a></li>
+	
+	<li class="dropdown"><a href="javascript:void(0)" class="btn-dropdwn">Prices</a></li>
+	<div class="content-dropdwn">
+		<a href="#">Basiv feautures</a>
+		<a href="#">Pro version Plan</a>
+		<a href="#">Advanced version</a>
+		<a href="#">Professional version</a>
+	</div>
+
+
+	<li><a href="#">Contacts</a></li>
+	<li><a href="#">Addresses</a></li>
+</ul>
+</div>
+</body>
+</html>

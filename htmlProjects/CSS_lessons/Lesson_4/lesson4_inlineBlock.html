@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inline-block</title>
+	<style type="text/css">
+       /* display:inline; </br> 
+       display:inine-block*/
+
+		span.par1 {
+			display: inline;
+			width: 100px;
+			height: 100px;
+			padding: 15px;
+			border: 2px solid red;
+			background-color: green;
+		}
+
+		span.par2 {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			padding: 15px;
+			border: 2px solid red;
+			background-color: green;
+		}
+
+		span.par3 {
+			display: block;
+			width: 100px;
+			height: 100px;
+			padding: 15px;
+			border: 2px solid red;
+			background-color: green;
+		}
+
+		p.divp1 {
+			display: block;
+			background-color: yellow;
+			color: red;
+			border: 3px double blue;
+			border-radius: 10px;
+			width: 50px;
+			height: 100px;
+			padding: 10px;
+			margin: 50px;
+		}
+
+		div {
+			margin-top: 100px;
+		}
+
+		div.block1 {
+			display: inline-block;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			margin:  350px;
+		}
+
+	</style>
+</head>
+<body>
+
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper lacus a tellus cursus consequat. <span class="par1"> Button1 </span>  <span class="par1"> Button 2 </span> Phasellus iaculis porta nisl vel suscipit. Ut tellus massa, luctus id ornare nec, blandit at velit.</p>
+
+ <p>Nulla pulvinar est vitae faucibus semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; <span class="par2"> Button1 </span>  <span class="par2"> Button 2 </span> Etiam cursus cursus lorem id faucibus. Ut facilisis est finibus finibus tincidunt.</p>
+
+<p>Curabitur commodo, justo non condimentum dapibus, tortor elit tincidunt ante, sit amet sagittis augue augue nec mi. <span class="par3"> Button1 </span>  <span class="par3"> Button 2 </span> Vivamus in lobortis odio. Vivamus ut sagittis metus. Quisque nunc eros, tempus et ullamcorper at, auctor id sem. Fusce pharetra lacus non orci luctus porttitor.</p>
+
+<div>
+	<p class="divp1">Text 1 </p>
+	<p class="divp1">Text 2 </p>
+	<p class="divp1">Text 3 </p>
+</div>
+
+<div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies tortor augue, vel suscipit tortor volutpat sit amet. <img src="https://i.pinimg.com/originals/5d/bb/dc/5dbbdcd9203944cbeaf5787b9c233ada.jpg" width="250" height="180" style="border: 3px solid blue; margin: 10px; float: right;"> Vivamus sapien lacus, fermentum nec egestas id, volutpat et felis. Nam blandit, leo non ornare sodales, sapien diam elementum felis, eget eleifend lorem ex ornare dui. Phasellus mauris orci, laoreet in tempor a, sollicitudin ac est.</p>
+</div>
+
+<div class="block1">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ultricies tortor augue, vel suscipit tortor volutpat sit amet. <img src="https://i.pinimg.com/originals/5d/bb/dc/5dbbdcd9203944cbeaf5787b9c233ada.jpg" width="250" height="180" style="border: 3px solid blue; margin: 10px; float: right;"> Vivamus sapien lacus, fermentum nec egestas id, volutpat et felis. Nam blandit, leo non ornare sodales, sapien diam elementum felis, eget eleifend lorem ex ornare dui. Phasellus mauris orci, laoreet in tempor a, sollicitudin ac est.</p>
+</div>
+</body>
+</html>
