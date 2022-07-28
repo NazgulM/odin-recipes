@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">	
+	<title>Lesson BS - Navbar</title>
+</head>
+<body>
+	
+	<!-- navbar - основной класс
+	navbar-expand-(sm|md|lg|xl) - класс для адаптации под разные экраны -->
+
+	<!-- Поддерживаемые элементы в меню:
+
+	.navbar-brand - чтобы поставить сюда лого компании/сайта
+	.navbar-nav - регулировать высоту, ширину меню
+	.navbar-toggler - меню для мобильной версиии
+	.navbar-text -  используется для регулирования текста по вертикали либо по горизонтали
+	.collapse.navbar-collapse - для группировки списка для меню
+	.navbar-scroll - класс для скроллинга в меню -->
+
+	<div class="container">
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<span class="navbar-brand mb-3 h1 mt-3"> Navbar</span>
+			</div>
+		</nav>
+		<br><br>
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand mb-3 h1 mt-3" href="#"> Navbar</a>
+			</div>
+		</nav>
+
+		<br><br>
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand mb-3 h1 mt-3" href="#">
+					<img src="https://www.nicepng.com/png/full/363-3634614_website-designing-web-logo.png" height="50" width="50">
+					Wesbite Studio
+				</a>
+			</div>
+		</nav>	
+
+		<br><br>
+
+		<nav class="navbar navbar-light bg-light navbar-expand-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand mb-3 h1 mt-3" href="#">
+					<img src="https://www.nicepng.com/png/full/363-3634614_website-designing-web-logo.png" height="50" width="50">
+					Wesbite Studio
+				</a>
+				
+				<button class="navbar-toggler" data-bs-toggle = "collapse" data-bs-target="#mainMenu" aria-control="mainMenu" aria-expanded="false" aria-label="Mobile menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="mainMenu">
+					<ul class="navbar-nav text-center">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Главное</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">О Нас</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Продукты</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Контакты</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Адреса</a>
+						</li>
+
+					</ul>
+					
+				</div>
+
+			</div>
+		</nav>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. Aliquet lectus proin nibh nisl condimentum id. Diam vel quam elementum pulvinar.</p>
+
+		<br><br>
+		<nav class="navbar navbar-dark navbar-expand-sm bg-dark sticky-top">
+			<div class="container-fluid">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Главное</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">О Нас</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Продукты</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Контакты</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Адреса</a>
+						</li>
+				</ul>
+
+				<form class="d-flex">
+					<input type="text" placeholder="Найти..." class="form-control me-2">
+					<button class="btn btn-success">Найти</button>
+				</form>
+			</div>
+		</nav>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada nunc vel risus commodo viverra maecenas. Laoreet sit amet cursus sit amet dictum sit amet justo. Dolor sit amet consectetur adipiscing elit duis. Pretium fusce id velit ut tortor pretium viverra. Ultrices sagittis orci a scelerisque purus semper. Id porta nibh venenatis cras sed felis eget velit aliquet. Rhoncus urna neque viverra justo nec ultrices dui sapien. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Et netus et malesuada fames ac turpis egestas maecenas. Pulvinar etiam non quam lacus suspendisse faucibus. Euismod nisi porta lorem mollis aliquam ut porttitor leo a. Curabitur gravida arcu ac tortor dignissim. Pharetra diam sit amet nisl suscipit. Quam pellentesque nec nam aliquam sem et tortor consequat. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Gravida cum sociis natoque penatibus et magnis dis parturient. A</p>
+
+	</div>
+
+
+</body>
+</html>	
