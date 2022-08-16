@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614723679_54-p-foni-dlya-odezhdi-68.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: blue;
+	font-family: 'Dancing Script', cursive;
+}
+
+.menubar {
+	text-align: center;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.menubar ul {
+	display: inline-flex;
+	list-style: none;
+	color: darkblue;
+	background-color: skyblue;
+
+}
+
+.menubar ul li {
+	width: 150px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menubar ul li a {
+	text-decoration: none;
+}
+
+.first {
+	text-align: center;
+	padding: 5px;
+}
+
+.menubar .fa {
+	margin-right: 8px;
+}
+
+ .menubar ul li:hover{
+	background: deepskyblue;
+	color: white;
+	border-radius: 3px;
+}
+
+.dropdown {
+	display: inline-block;
+
+}
+
+.dropdown:hover .content-dropdown{
+	display: block;
+	color: skyblue;
+}
+
+.content-dropdown {
+	position: absolute;
+	display: none;
+	background-color: lightskyblue;
+	min-width: 160px;
+}
+
+.content-dropdown a {
+	display: block;
+	padding: 12px 16px;
+	text-align: left;
+}
+
+/*.btn-dropdown {
+	border: 2px solid blue;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 10px;
+
+}
+
+p {
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Kurale', serif;
+}
+
+.table1 {
+  display: flex;
+  border: 5px solid white;
+  background-color: skyblue;
+}
+
+.table2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.vid {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: cadetblue;
+}
+
+.photo {
+	display: block;
+	max-width: 50%;
+	max-height: 50%;
+	width: 350;
+	height: 200;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td,th {
+	border: 5px solid blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	text-align: center;
+    clear: both;
+    margin-right:10px;
+
+}
+
+.whyarewe {
+	font-family: 'Merienda', cursive;
+}
+
+.myheart {
+	font-size: 120px;
+	color: red;
+	text-shadow: 5px;
+}
+
+.one {
+	font-size: 60px;
+	color: darkblue;
+}
+
+.media1 {
+	font-size: 60px;
+	text-align: center;
+	color: green;
+	padding: 20px;
+}
+
+.media2 {
+	font-size: 60px;
+	text-align: center;
+	color: purple;
+	padding: auto;
+	margin: auto;
+}
+
+.media3 {
+	font-size: 60px;
+	text-align: center;
+	color: blue;
+	padding: 20px;
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+width: 160px;
+}
+
+.dropdown-content {
+display: none;
+background-color: whitesmoke;
+width: 100%;
+}
+
+.dropdown-content a {
+display: block;
+color: black;
+padding: 12px;
+text-decoration: none;
+
+}
+
+.dropdown:hover .dropbtn {
+background-color: sandybrown;
+}
+
+.dropdown-content a:hover {
+background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.media {
+	padding: 10px;
+	margin: 20px;
+	background-color: #bcceeb;
+}
+
